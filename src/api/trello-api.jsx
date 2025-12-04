@@ -1,7 +1,7 @@
 import apiClient from "./base-url";
 
-const API_KEY = import.meta.env.TL_APIKEY;
-const BOARD_ID = import.meta.env.TL_BOARDID;
+const API_KEY = import.meta.env.VITE_APIKEY;
+const BOARD_ID = import.meta.env.VITE_BOARDID;
 
 const authParams = {
   key: API_KEY,

@@ -1,12 +1,10 @@
 import apiClient from "./base-url";
 
 const API_KEY = import.meta.env.VITE_APIKEY;
-const API_TOKEN = import.meta.env.VITE_TOKEN;
 const BOARD_ID = import.meta.env.VITE_BOARDID;
 
 const authParams = {
   key: API_KEY,
-  token: API_TOKEN,
 };
 
 // GET /boards/{boardId}
